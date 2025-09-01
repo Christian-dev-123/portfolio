@@ -46,4 +46,13 @@ button {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    textarea {
+        width: 90%;
+        height: 150px;
+    }
+}
+
+
+
 
