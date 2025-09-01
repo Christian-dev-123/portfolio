@@ -1,0 +1,67 @@
+.section-sample-project {
+    min-height: 100vh;
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 56px;
+    color: #FD6F00;
+}
+
+.box-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box img{
+
+    width: 280px;
+    height: 280px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: #FD6F00 solid 4px;
+    margin-top: 10px;
+  
+}
+
+.box img:hover{
+    transform: scale(1.2);
+
+
+  
+}
+
+.box h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.center-text-message h1{
+    font-size: 48px;
+    color: #FD6F00;
+    margin-bottom: 20px;
+    text-align: center;
+ 
+}
+
+@media (max-width: 600px) {
+
+    .box-image {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .box img {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        margin-left: 20px;
+    }
+}
